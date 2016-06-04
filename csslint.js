@@ -22,10 +22,11 @@ THE SOFTWARE.
 
 */
 
-var module = module || {},
-    exports = exports || {};
-
 var CSSLint = (function(){
+
+  // BB: Moved the def of exports here to prevent issue with codemirror
+  var exports = exports || {};
+
 /*!
 Parser-Lib
 Copyright (c) 2009-2011 Nicholas C. Zakas. All rights reserved.

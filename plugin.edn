@@ -1,5 +1,5 @@
 {:name "lt-css-lint"
- :version "0.0.1"
+ :version "0.0.2"
  :author "Brendan Bates"
  :source "https://github.com/bbbates/lt-css-lint"
  :desc "CSS Linting for Lighttable"
