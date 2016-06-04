@@ -1,0 +1,6 @@
+[
+ [:app :lt.objs.plugins/load-js ["csslint.js" "lt-css-lint_compiled.js"]]
+
+ [:editor.css :lt.plugins.lt-lint/register-linter [:lt.plugins.lt-css-lint/css-lint]]
+ [:editor.css :lt.object/add-tag :docable] ;; required to show lint messages below the line
+ ]
